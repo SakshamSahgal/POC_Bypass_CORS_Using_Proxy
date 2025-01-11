@@ -10,3 +10,7 @@ app.listen(port, () => {
 app.get("/api/health", (req, res) => {
     res.send("HEALTH OK")
 })
+
+app.post("/api/abc", (req, res) => {
+    res.send("ABC OK")
+})
